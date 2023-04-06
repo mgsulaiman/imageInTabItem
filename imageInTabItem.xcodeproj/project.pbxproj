@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		8B37AD1029DE606500CCE123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37AD0F29DE606500CCE123 /* ContentView.swift */; };
 		8B37AD1229DE606800CCE123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37AD1129DE606800CCE123 /* Assets.xcassets */; };
 		8B37AD1529DE606800CCE123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37AD1429DE606800CCE123 /* Preview Assets.xcassets */; };
+		8B37AD1C29DE7F8900CCE123 /* TabBarControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37AD1B29DE7F8900CCE123 /* TabBarControllerRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8B37AD0F29DE606500CCE123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B37AD1129DE606800CCE123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B37AD1429DE606800CCE123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B37AD1B29DE7F8900CCE123 /* TabBarControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				8B37AD0F29DE606500CCE123 /* ContentView.swift */,
 				8B37AD1129DE606800CCE123 /* Assets.xcassets */,
 				8B37AD1329DE606800CCE123 /* Preview Content */,
+				8B37AD1B29DE7F8900CCE123 /* TabBarControllerRepresentable.swift */,
 			);
 			path = imageInTabItem;
 			sourceTree = "<group>";
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 8B37AD0529DE606500CCE123 /* Build configuration list for PBXProject "imageInTabItem" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B37AD1C29DE7F8900CCE123 /* TabBarControllerRepresentable.swift in Sources */,
 				8B37AD1029DE606500CCE123 /* ContentView.swift in Sources */,
 				8B37AD0E29DE606500CCE123 /* imageInTabItemApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

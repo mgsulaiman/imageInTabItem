@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "perfectEmoji.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

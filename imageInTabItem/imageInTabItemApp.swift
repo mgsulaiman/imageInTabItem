@@ -2,7 +2,7 @@
 //  imageInTabItemApp.swift
 //  imageInTabItem
 //
-//  Created by developer mg on 06/04/2023.
+//  Created by mgsulaiman on 06/04/2023.
 //
 
 import SwiftUI
